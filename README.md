@@ -24,7 +24,15 @@ This repository contains two branches:
  - Important: 
    - Github Pages only allows you to host a static website. This means that there is NOT going to be any server side rendering and the pages served would be static.
    - Please remember NOT to mix the code of the deployment branch into the main branch and vice versa as this is going to lead to unpredictable behavior
+   - Add the following to your ".gitconfig" file
 
+     ```zsh
+     [http]
+     	postBuffer = 104857600
+     	lowSpeedLimit = 0
+     	lowSpeedTime = 999999
+     ```
+     
 ## Steps to follow
 
 1. Clone the repo (https://github.com/patriaabhishek/satimata.git):
