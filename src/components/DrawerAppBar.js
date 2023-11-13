@@ -17,7 +17,8 @@ import Button from "@mui/material/Button";
 const drawerWidth = 240;
 const navItems = [
   ["Home", "/"],
-  ["Pooja", "/pooja"],
+  ["Pooja Samagri", "/poojasamagri"],
+  ["Pooja Vidhi", "/poojavidhi"],
   ["History", "/history"],
   ["How to Reach", "/howtoreach"],
   ["Places Nearby", "/placesnearby"],
@@ -36,7 +37,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        Yagnapur ki Satimata
+        Jahazpur ki Satimata
       </Typography>
       <Divider />
       <List>
@@ -73,7 +74,7 @@ function DrawerAppBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            Yagnapur ki Satimata
+            Jahazpur ki Satimata
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
