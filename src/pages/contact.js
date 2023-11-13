@@ -1,26 +1,25 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
-import { Grid, Typography } from "@mui/material";
-import FeedbackForm from "../components/FeedbackForm";
-import ContactInfoCard from "../components/ContactInfoCard";
+import { Typography } from "@mui/material";
 import Layout from "../components/layout";
+import FeedbackForm from "../components/FeedbackForm";
 
 const Contact = () => {
   return (
     <Layout pageTitle="Contact">
-      <Grid container spacing={3}>
-        <Grid item sm={6}>
-          <Box>
-            <Typography variant="h5" gutterBottom>
-              Contact Information
-            </Typography>
-            <ContactInfoCard />
-          </Box>
-        </Grid>
-        <Grid item sm={6}>
-          <FeedbackForm />
-        </Grid>
-      </Grid>
+      <Box>
+        <Typography variant="h5" gutterBottom>
+          Your Feedback Matters!
+        </Typography>
+        <Typography variant="body" gutterBottom>
+          Thank you for taking the time to provide feedback. Your insights help
+          us improve this website. Please fill out the following form to share
+          your thoughts.
+        </Typography>
+        <br />
+        <br />
+        <FeedbackForm />
+      </Box>
     </Layout>
   );
 };

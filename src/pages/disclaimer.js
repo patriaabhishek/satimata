@@ -11,7 +11,12 @@ const Disclaimer = () => {
       <Layout pageTitle="Disclaimer">
         <Card>
           <CardContent>
-            <Typography gutterBottom variant="h4" component="div">
+            <Typography
+              gutterBottom
+              variant="h4"
+              component="div"
+              align="center"
+            >
               Please read the disclaimer
             </Typography>
             <Typography variant="body1">

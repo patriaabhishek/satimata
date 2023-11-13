@@ -14,7 +14,7 @@ const GoogleMap = ({ mapSrc }) => {
   return (
     <Box>
       <iframe
-        title="yagnapur_map"
+        title="jahazpur_map"
         src={mapSrc}
         width="100%"
         height="400"
@@ -30,6 +30,10 @@ const GoogleMap = ({ mapSrc }) => {
 const MapCard = ({ mapUrl }) => {
   return (
     <Card>
+      <Typography gutterBottom variant="h4" component="div" align="center">
+        How to Reach
+      </Typography>
+
       <GoogleMap mapSrc={mapUrl} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -56,8 +60,8 @@ const MapCard = ({ mapUrl }) => {
           By Train
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          There is no direct train to Yagnapur but nearby cities are well
-          connected by trains. The nearest railway stations to Yagnapur are
+          There is no direct train to Jahazpur but nearby cities are well
+          connected by trains. The nearest railway stations to Jahazpur are
           Bhilwara, Kota and Indargarh. Here is a quick summary about the
           railway stations and respective distances. For more information,
           please refer Indian Railways website.
@@ -69,7 +73,7 @@ const MapCard = ({ mapUrl }) => {
           By Air
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Yagnapur doesn't have a dedicated airport. The nearest airports are at
+          Jahazpur doesn't have a dedicated airport. The nearest airports are at
           Jaipur, Udaipur, Delhi and Ahmedabad. Here is a quick summary about
           the airports and respective distances. For flight schedules, please
           check with the airlines.
