@@ -12,6 +12,8 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "formik": "latest",
+    "formik-mui": "^5.0.0-alpha.0",
     "gatsby": "latest",
     "gatsby-plugin-image": "latest",
     "gatsby-plugin-react-helmet": "latest",
@@ -23,12 +25,15 @@
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-helmet": "latest"
+    "react-helmet": "latest",
+    "react-phone-input-2": "^2.15.1",
+    "yup": "latest",
+    "yup-phone": "latest"
   },
   "scripts": {
     "develop": "gatsby clean && gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",  
+    "serve": "gatsby serve",
     "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -f -d public -b gh-pages && gatsby clean",
     "clean": "gatsby clean",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
