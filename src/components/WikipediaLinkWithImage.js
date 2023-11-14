@@ -9,7 +9,7 @@ function WikipediaLinkWithImage({ articleDetails }) {
   const wikipediaImageURL = articleDetails.imageurl;
 
   return (
-    <Card variant="outlined">
+    <Card variant="outlined" align="center">
       <Link href={wikipediaArticleURL}>
         <CardMedia component="img" height="140" image={wikipediaImageURL} />
         <Typography variant="body" align="center">

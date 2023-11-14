@@ -21,7 +21,7 @@ const navItems = [
   ["Pooja Vidhi", "/poojavidhi"],
   ["History", "/history"],
   ["How to Reach", "/howtoreach"],
-  ["Places Nearby", "/placesnearby"],
+  // ["Places Nearby", "/placesnearby"],
   ["Contact", "/contact"],
   ["Disclaimer", "/disclaimer"],
 ];

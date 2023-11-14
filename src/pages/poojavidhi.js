@@ -1,39 +1,9 @@
 import * as React from "react";
-import { List, ListItem, ListItemText, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import Layout from "../components/layout";
 import { PoojaVidhiConfig } from "../config/poojavidhi";
 import { PoojaConsiderations } from "../config/poojaconsiderations";
-
-const OrderedParagraphs = ({ items }) => {
-  return (
-    <List component="ol" sx={{ listStyle: "decimal", pl: 4 }}>
-      {items.map((item, index) => (
-        <ListItem sx={{ display: "list-item" }}>
-          <ListItemText
-            primary={item.title}
-            secondary={item.content}
-            align="justify"
-          />
-        </ListItem>
-      ))}
-    </List>
-  );
-};
-
-const OrderedList = ({ items }) => {
-  return (
-    <List component="ol" sx={{ listStyle: "decimal", pl: 4 }}>
-      {items.map((item, index) => (
-        <ListItem key={index} sx={{ display: "list-item" }}>
-          <ListItemText primary={item.parent} align="justify" />
-          {item.children && item.children.length > 0 && (
-            <OrderedList items={item.children} />
-          )}
-        </ListItem>
-      ))}
-    </List>
-  );
-};
+import { OrderedList, OrderedParagraphs } from "../components/TextComponents";
 
 const PoojaVidhi = () => {
   return (

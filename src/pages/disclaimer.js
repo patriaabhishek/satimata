@@ -19,7 +19,7 @@ const Disclaimer = () => {
             >
               Please read the disclaimer
             </Typography>
-            <Typography variant="body1">
+            <Typography variant="body1" align="justify">
               {DisclaimerConfig.content.map((item) => (
                 <div>
                   <br />
