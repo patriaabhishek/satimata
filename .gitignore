@@ -1,3 +1,6 @@
+#Package lock files
+*-lock.json
+
 # Logs
 logs
 *.log
