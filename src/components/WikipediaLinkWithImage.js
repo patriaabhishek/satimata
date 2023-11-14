@@ -12,7 +12,7 @@ function WikipediaLinkWithImage({ articleDetails }) {
     <Card variant="outlined">
       <Link href={wikipediaArticleURL}>
         <CardMedia component="img" height="140" image={wikipediaImageURL} />
-        <Typography variant="body2" align="center">
+        <Typography variant="body" align="center">
           <Link href={wikipediaArticleURL}>{articleDetails.article}</Link>
         </Typography>
       </Link>

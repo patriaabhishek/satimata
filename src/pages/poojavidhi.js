@@ -24,7 +24,7 @@ const PoojaVidhi = () => {
       <Typography gutterBottom variant="h4" component="div" align="center">
         Pooja Vidhi
       </Typography>
-      <Typography variant="body2">
+      <Typography variant="body">
         <OrderedList items={PoojaVidhiConfig.items} />
       </Typography>
     </Layout>

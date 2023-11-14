@@ -8,7 +8,7 @@ import Typography from "@mui/material/Typography";
     <Typography gutterBottom variant="h5" component="div">
       Please read the disclaimer
     </Typography>
-    <Typography variant="body2">
+    <Typography variant="body">
       The word Sati (Satimata) have multiple meanings in the Hindi language. In
       this website, the word “Sati (Satimata)” refers to the females in Jahazpur
       (Jahazpur) region/ community who passed away unnaturally (due to

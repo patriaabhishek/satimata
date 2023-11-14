@@ -39,19 +39,19 @@ const MapCard = ({ mapUrl }) => {
         <Typography gutterBottom variant="h5" component="div">
           By Road
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body" color="text.secondary">
           Jahazpur is well connected by road. The nearest cities to the temple
           are Deoli and Bhilwara which have state transport and private buses
           running throughout the day. Bus connectivity during night is a bit
           sketchy. Details of the bus timings can be found on the RSRTC website.
         </Typography>
         <br />
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body" color="text.secondary">
           There are some preferred taxi operators whose details with telephone
           numbers can be found on the contact page.
         </Typography>
         <br />
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body" color="text.secondary">
           Distances from the major cities are as follows:
         </Typography>
         <RoadDistanceTable />
@@ -59,7 +59,7 @@ const MapCard = ({ mapUrl }) => {
         <Typography gutterBottom variant="h5" component="div">
           By Train
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body" color="text.secondary">
           There is no direct train to Jahazpur but nearby cities are well
           connected by trains. The nearest railway stations to Jahazpur are
           Bhilwara, Kota and Indargarh. Here is a quick summary about the
@@ -72,7 +72,7 @@ const MapCard = ({ mapUrl }) => {
         <Typography gutterBottom variant="h5" component="div">
           By Air
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body" color="text.secondary">
           Jahazpur doesn't have a dedicated airport. The nearest airports are at
           Jaipur, Udaipur, Delhi and Ahmedabad. Here is a quick summary about
           the airports and respective distances. For flight schedules, please
