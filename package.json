@@ -13,7 +13,7 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "formik": "latest",
-    "formik-mui": "^5.0.0-alpha.0",
+    "formik-mui": "latest",
     "gatsby": "latest",
     "gatsby-plugin-image": "latest",
     "gatsby-plugin-react-helmet": "latest",
@@ -26,7 +26,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-helmet": "latest",
-    "react-phone-input-2": "^2.15.1",
+    "react-phone-input-2": "latest",
     "yup": "latest",
     "yup-phone": "latest"
   },
