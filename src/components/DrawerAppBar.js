@@ -37,7 +37,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        Jahazpur ki Satimata
+        Patria Didwaniya (Jahazpur) ki Satimata
       </Typography>
       <Divider />
       <List>
@@ -74,7 +74,7 @@ function DrawerAppBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            Jahazpur ki Satimata
+            Patria Didwaniya (Jahazpur) ki Satimata
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
