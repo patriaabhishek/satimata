@@ -33,7 +33,7 @@ const data = [
   { item: "Kaajal", quantity: "1 packet" },
   { item: "Laccha", quantity: "1 roll" },
   { item: "Bindi", quantity: "1 packet" },
-  { item: "White cloth", quantity: "5 (1 meter each )" },
+  { item: "White cloth", quantity: "5 pieces (1 meter each )" },
   { item: "Red cloth", quantity: "1 meter" },
   { item: "Old Newspaper/ Tissue rolls", quantity: "For cleaning purpose" },
 ];

@@ -3,22 +3,22 @@ export const PoojaConsiderations = {
     {
       title: "Pooja Conduct",
       content:
-        "At our temple, there are no specific pandits designated for the Sati Mata Pooja. Every devotee, irrespective of gender, is warmly invited to perform this sacred ritual. It is a testament to the equality and inclusivity inherent in the worship of Satimata Ji.",
+        "No specific Pujari, Pandit, or priest is designated for the Sati Mata Pooja. Every devotee can perform this sacred ritual. It is a testament to the equality and inclusivity inherent in the worship of Satimata Ji.",
     },
     {
       title: "Attire Considerations",
       content:
-        "While engaging in the Pooja, it is advised that females refrain from adorning blue-colored clothing. This observance is rooted in tradition, ensuring a harmonious and spiritually attuned atmosphere during the worship.",
+        "Women and girls should not wear blue saree or clothing. There is no specific color restriction for male attire. However, all devotees should be appropriately dressed. Shorts should be avoided.",
     },
     {
-      title: "Saradhh Timings",
+      title: "Auspicious day for Satimata Pooja",
       content:
-        "The Saradhh of Satimata Ji can be conducted with heightened devotion on the auspicious tithis of Saptmi, Astmi, Dasmi, Dwadsi, and Chaturdashi. These sacred occasions provide a spiritually charged backdrop for connecting with the divine.",
+        "Pooja can be conducted on any auspicious tithi. However, Dihari Ashtami (Ashtami of Shukla Paksha) is considered as the most sacred day.",
     },
     {
       title: "Bhog Offering",
       content:
-        "The offering of bhog, particularly the dhoop of Mataji Thali, is a cherished practice. This privilege is extended exclusively to daughters, daughters-in-law, or the daughters of daughters. In the absence of these individuals, the bhog should be graciously offered to a cow (not an ox). Males, however, are urged to refrain from partaking in the bhog, honoring the sanctity of this unique tradition.",
+        "The offering of bhog, particularly the dhoop of Mataji Thali, is a cherished practice. This privilege is extended exclusively to daughters, daughters-in-law, or the daughters of daughters. Males, however, are urged to refrain from partaking in the bhog, honoring the sanctity of this unique tradition.",
     },
   ],
 };
