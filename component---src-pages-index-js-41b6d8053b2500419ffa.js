@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmaterial_ui_gatsby=self.webpackChunkmaterial_ui_gatsby||[]).push([[678],{6558:function(e,t,n){n.r(t),n.d(t,{Head:function(){return u}});var a=n(7294),l=n(3978);const u=()=>a.createElement("title",null,"Index");t.default=()=>a.createElement(l.Z,{pageTitle:"Index"},a.createElement("p1",null,"To be done..."))}}]);
+//# sourceMappingURL=component---src-pages-index-js-41b6d8053b2500419ffa.js.map
