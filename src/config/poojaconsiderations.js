@@ -3,7 +3,7 @@ export const PoojaConsiderations = {
     {
       title: "Pooja Conduct",
       content:
-        "No specific Pujari, Pandit, or priest is designated for the Sati Mata Pooja. Every devotee can perform this sacred ritual. It is a testament to the equality and inclusivity inherent in the worship of Satimata Ji.",
+        "No specific Pujari, Pandit, or priest is designated for the Sati Mata Pooja. Every devotee, irrespective of gender, can perform this sacred ritual. It is a testament to the equality and inclusivity inherent in the worship of Satimata Ji.",
     },
     {
       title: "Attire Considerations",

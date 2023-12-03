@@ -19,10 +19,9 @@ const PoojaVidhi = () => {
         <OrderedParagraphs items={PoojaConsiderations.items} />
       </Typography>
       <Typography variant="body">
-        As you step into the precincts of our temple, may your journey be guided
-        by the profound spirituality and inclusive ethos that defines the
-        worship of Satimata Ji. Following is the complete Poojan Vidhi for our
-        Satimata Ji
+        As you step into the precincts of Satimata Sthal, may your journey be
+        guided by the profound spirituality and inclusive ethos that defines the
+        worship. Following is the complete Poojan Vidhi for our Satimata Ji
       </Typography>
       <br />
       <br />
