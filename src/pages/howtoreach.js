@@ -34,7 +34,7 @@ const MapCard = ({ mapUrl }) => {
 
       <GoogleMap mapSrc={mapUrl} />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" align="center">
           By Road
         </Typography>
         <Typography variant="body" color="text.secondary" align="justify">
@@ -56,7 +56,7 @@ const MapCard = ({ mapUrl }) => {
         </Typography>
         <RoadDistanceTable />
         <br />
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" align="center">
           By Train
         </Typography>
         <Typography variant="body" color="text.secondary" align="justify">
@@ -69,7 +69,7 @@ const MapCard = ({ mapUrl }) => {
         <br />
         <TrainsTable />
         <br />
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" align="center">
           By Air
         </Typography>
         <Typography variant="body" color="text.secondary" align="justify">

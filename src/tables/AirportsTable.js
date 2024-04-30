@@ -57,17 +57,17 @@ function AirTable({ data, title }) {
 function AirportsTable() {
   return (
     <div>
-      <Typography gutterBottom variant="h6" component="div">
+      <Typography gutterBottom variant="h6" component="div" align="center">
         International Airports
       </Typography>
       <AirTable data={InternationalAirports} />
       <br />
-      <Typography gutterBottom variant="h6" component="div">
+      <Typography gutterBottom variant="h6" component="div" align="center">
         Domestic Airports
       </Typography>
       <AirTable data={DomesticAirports} />
       <br />
-      <Typography gutterBottom variant="h6" component="div">
+      <Typography gutterBottom variant="h6" component="div" align="center">
         Local Airports
       </Typography>
       <AirTable data={LocalAirports} />
