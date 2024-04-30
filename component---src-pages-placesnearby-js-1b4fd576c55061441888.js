@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmaterial_ui_gatsby=self.webpackChunkmaterial_ui_gatsby||[]).push([[996],{7607:function(e,t,a){a.r(t),a.d(t,{Head:function(){return r}});var l=a(9474),n=a(9656);const r=()=>l.createElement("title",null,"Places Nearby");t.default=()=>l.createElement(n.A,{pageTitle:"Places Nearby"},l.createElement("p1",null,"To be done..."))}}]);
+//# sourceMappingURL=component---src-pages-placesnearby-js-1b4fd576c55061441888.js.map
